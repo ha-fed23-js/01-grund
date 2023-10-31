@@ -24,3 +24,12 @@ for (let count = 0; count < 10; count++) {
 	x = x + 1;
 }
 */
+
+let v = 15
+let string = 'Exempel: ' + v + ', ' + v + '!'
+let template = `Exempel: ${v}, ${v}!`
+console.log(string)
+console.log(template)
+
+// C#
+// $"Exempel: {v}"
